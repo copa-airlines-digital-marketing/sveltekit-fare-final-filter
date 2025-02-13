@@ -1,5 +1,5 @@
 import { type VariantProps } from "tailwind-variants";
-import { cmTailwindVariants, cn } from "../../../lib/utils";
+import { cmTailwindVariants, cn } from "$lib/utils";
 
 const typography = cmTailwindVariants({
   base: 'text-b font-suisse font-normal',
